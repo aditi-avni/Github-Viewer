@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>GitHub Viewer</title>
+</head>
+
+<body>
+
+    <div class="main-container">
+
+        <!-- HEADER -->
+        <header class="header">
+
+            <div class="branding">
+                <img src="" alt="GitHub Logo" class="github-logo" id="logo">
+
+                <h1 class="heading">
+                    GitHub Profile Viewer
+                </h1>
+            </div>
+
+            <button class="toggle-btn" id="toggle-btn">
+                Light Mode
+            </button>
+
+        </header>
+
+
+        <!-- SEARCH SECTION -->
+        <div class="search-section">
+
+            <div class="search-container">
+
+                <input type="text" class="search-input" id="search-input" placeholder="Enter GitHub username">
+
+                <button class="search-btn" id="search-btn">
+                    Search
+                </button>
+
+            </div>
+
+            <p class="helper-text">
+                Try searching: octocat
+            </p>
+
+        </div>
+
+
+        <!-- PROFILE SECTION -->
+        <div class="profile-section" id="profile-section">
+
+            <div class="profile-card">
+
+                <!-- LEFT PROFILE -->
+                <div class="left-profile">
+
+                    <img src="" alt="Profile Avatar" class="profile-avatar" id="profile-avatar">
+
+                </div>
+
+
+                <!-- RIGHT PROFILE -->
+                <div class="profile-info">
+
+                    <h2 class="profile-name" id="profile-name">
+                        Profile Name
+                    </h2>
+
+                    <p class="username" id="username">
+                        @username
+                    </p>
+
+                    <p class="profile-bio" id="profile-bio">
+                        Profile bio goes here.
+                    </p>
+
+
+                    <!-- STATS -->
+                    <div class="stats-container">
+
+                        <div class="stat-box">
+
+                            <h3>Followers</h3>
+
+                            <p id="followers-count">
+                                0
+                            </p>
+
+                        </div>
+
+
+                        <div class="stat-box">
+
+                            <h3>Following</h3>
+
+                            <p id="following-count">
+                                0
+                            </p>
+
+                        </div>
+
+
+                        <div class="stat-box">
+
+                            <h3>Repositories</h3>
+
+                            <p id="repos-count">
+                                0
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- EXTRA INFO -->
+                    <div class="extra-info">
+
+                        <p id="location">
+                            Location
+                        </p>
+
+                        <p id="company">
+                            Company
+                        </p>
+
+                        <a href="#" target="_blank" id="github-link">
+                            View GitHub Profile
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- REPOSITORIES SECTION -->
+        <div class="repositories-section" id="repositories-section">
+
+            <div class="repositories-header">
+
+                <h2 class="repositories-heading">
+                    Repositories
+                </h2>
+
+                <p class="repositories-subtext">
+                    Click a repository to open it on GitHub
+                </p>
+
+            </div>
+
+
+            <!-- DYNAMIC REPOSITORY LINKS -->
+            <div class="repo-list" id="repo-list">
+
+                <!-- JavaScript will inject repo links here -->
+
+            </div>
+
+        </div>
+
+
+        <!-- ERROR MESSAGE -->
+        <div class="error-message" id="error-message">
+            User not found.
+        </div>
+
+
+        <!-- LOADING STATE -->
+        <div class="loading" id="loading">
+            Loading...
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
