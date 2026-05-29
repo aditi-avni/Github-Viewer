@@ -187,6 +187,7 @@ body {
 #username {
     font-size: 0.80rem;
     font-weight: normal;
+    font-style: italic;
     color: #8b949e;
 }
 
