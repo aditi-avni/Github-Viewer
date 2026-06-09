@@ -226,3 +226,33 @@ body {
 #github-link:hover {
     text-decoration: underline;
 }
+
+#error-message {
+    display: none;
+
+    text-align: center;
+
+    color: red;
+
+    font-size: 1.5rem;
+    font-weight: bold;
+
+    margin-top: 50px;
+}
+
+.repo-list a {
+    color: #58a6ff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.repo-list a:hover {
+    text-decoration: underline;
+}
+
+.repo-list li {
+    background-color: #161b22;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
