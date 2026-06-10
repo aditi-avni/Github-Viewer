@@ -74,6 +74,4 @@ https://api.github.com/users/{username}/repos
   ## Live Demo
 
 [https://aditi-avni.github.io/Github-Viewer/]
-## Live Demo
 
-[https://aditi-avni.github.io/Github-Viewer/]
