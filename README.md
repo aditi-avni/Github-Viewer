@@ -27,18 +27,6 @@ A responsive GitHub Profile Viewer built with HTML, CSS, and JavaScript that fet
 - JavaScript (ES6)
 - GitHub REST API
 
-## 📸 Preview
-
-Add a screenshot here:
-
-```md
-![Project Screenshot](screenshot.png)
-```
-
-## 🌐 Live Demo
-
-[View Live Demo](YOUR_LIVE_DEMO_LINK)
-
 ## 📂 Installation
 
 1. Clone the repository
@@ -83,6 +71,9 @@ https://api.github.com/users/{username}/repos
 - Pagination for repositories
 - Better error messages
 
+  ## Live Demo
+
+[https://aditi-avni.github.io/Github-Viewer/]
 ## Live Demo
 
 [https://aditi-avni.github.io/Github-Viewer/]
